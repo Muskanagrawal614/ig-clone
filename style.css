@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.article{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    
+}
+.left{
+    width: 382px;
+    height: 582px;
+margin-right: 32px;
+margin-bottom: 12px;
+}
+.right{
+    width: 350px;
+    height: 560px;
+    display: block;
+}
+.card{
+    width: 350px;
+    height:380px ;
+    display: flexbox;
+    justify-content: center;
+
+    padding: 10px 0;
+    border: 1px solid grey ;
+    box-sizing: border-box;
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+.insta{
+    padding-left: 35px;
+    width:275px ;
+    height: 125px;
+    vertical-align: top;
+}
+
+.input-container input{
+    margin-top: 7px;
+    margin-left: 35px;
+    height: 36px;
+    width: 270px;
+    padding: 9px 7px 0 7px;
+    background-color: #fafafa;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.input-container input:focus{
+    border: 1px solid darkgray;
+
+}
+.b1{
+    height: 32px;
+    width: 270px;
+    background-color: #1877F2;
+    border-radius: 6px;
+    margin: 8px 45px 8px 35px
+}
+.button{
+
+    height: 32px;
+    width: 270px;
+    color: #ffffff;
+    background-color: #1877F2;
+    border-radius: 6px;
+    border: none;
+   
+}
+.or{
+    
+    font-size: 14px;
+    text-align: center;
+    margin-top:15px;
+
+}
+.b2{
+    border: none;
+    color: #1877F2;
+    background-color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    padding: 7px 0 ;
+    margin: 10px 92px;
+}
+.b2 span{
+    font-size: 14px;
+}
+.icon{
+    margin-right: 8px;
+
+}
+.forgot{
+    text-align: center;
+}
+.forgot a{
+    font-size: 12px;
+    text-decoration: none;
+    color:#385898;
+
+}
+.another{
+    align-items: center;
+    height: 63px;
+    border: 1px solid grey;
+    border-radius: 1px;
+    box-sizing: border-box;
+    padding: 20px 0 10px ;
+    margin-bottom: 10px;
+    
+}
+.another span{
+font-size: smaller;
+text-align: center;
+    
+}
+.another a{
+    font-size: 14px;
+    font-family: 500;
+    color: #1877F2;
+}
+.other{
+    margin-top: 15px;
+    text-align: center;
+}
+.other span{
+    font-size: smaller;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.images a{
+    margin-right: 8px;
+}
+.foot{
+    height: 83px;
+    margin-bottom: 52px;
+}
+.top{
+    height: 23px;
+    padding: 0 35p2px;
+
+}
+.top span{
+    color: #737373;
+    display: flex;
+    justify-content:space-evenly ;
+    font-size: smaller;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin: 18px 0;
+}
+
+
+.bottom select{
+    color: #737373;
+    border: none;
+}
+.bottom span{
+color: #737373;
+font-size: 12px;
+margin-left: 2px;
+}
+
+
